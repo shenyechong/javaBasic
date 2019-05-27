@@ -31,7 +31,7 @@ public class Y0524 {
 //        }
 
     //  3.
-//        int[] i = {1,2,3,4};
+//        int i [] = {1,2,3,4};
 //        int j = 0;
 //        for (int a = 0;a<i.length;a++){
 //            for (int b = 0;b<i.length;b++){
@@ -46,7 +46,7 @@ public class Y0524 {
 //        System.out.println("一共有"+j+"种");
 
     //  4.
-//        int b = 1;
+//        long b = 1;
 //        for (int a = 1;a<=9;a++){
 //            b = a * b;
 //        }
@@ -85,19 +85,29 @@ public class Y0524 {
 //        Scanner i = new Scanner(System.in);
 //        System.out.println("请输入年份");
 //        int j = i.nextInt();
-//        if (j%4==0&&j%100!=0){
+//        if (j%4==0&&j%100!=0||j%400==0){
 //            System.out.println(j+"是闰年");
 //        }else{
 //            System.out.println(j+"是平年");
 //        }
 
-    // 8.
+    // 8.(1).
 //            char a = (char)System.in.read();
-//            if (a>='a'&&a<='z'){
-//               a-=32 ;
-//               System.out.println(a);
-//            }else {
-//                System.out.println(a);
+////            if (a>='a'&&a<='z'){
+////               a-=32 ;
+////               System.out.println(a);
+////            }else {
+////                System.out.println(a);
+////            }
+//       (2).
+//            Scanner i = new Scanner(System.in);
+//            String a = i.next();
+//            char b = a.charAt(0);
+//            if (b>='a'&&b<='z'){
+//                b-= 32;
+//                System.out.println(b);
+//            }else{
+//                System.out.println(b);
 //            }
 
     // 9.
@@ -115,7 +125,7 @@ public class Y0524 {
         Scanner i = new Scanner(System.in);
         int a = i.nextInt();
         int b = 0;
-        if (a>=0){
+        while (a>0){
            b+= a%10;
            a = a/10;
         }
