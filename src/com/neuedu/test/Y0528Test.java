@@ -41,10 +41,14 @@ public class Y0528Test {
 //    2.
 //        Computer com = new Computer('红',8750);
 //        com.a();
-
 //    3.
-
-
+//        Wages wag = new Wages();
+//        wag.setName("张三");
+//        wag.setType("worker");
+//        wag.computeSalay();
+//        wag.setName("李四");
+//        wag.setType("salesman");
+//        wag.computeSalay();
 //     4.
 //        Person person = new Person();
 //        person.setName("张三");
@@ -59,20 +63,12 @@ public class Y0528Test {
 //        personCreate2.setAge(44);
 //        personCreate2.setHeight(1.74);
 //        personCreate2.sayHello();
-//
 //      5.
-
-
-
-
-
-
-
-
-
-
-
+        Point p1 = new Point();
+        p1.movePoint(7,9);
+        System.out.println("p1:"+"("+p1.x+","+p1.y+")");
+        Point p2 = new Point(2,2);
+        p2.movePoint(8,10);
+        System.out.println("p2:"+"("+p2.x+","+p2.y+")");
     }
-
-
 }

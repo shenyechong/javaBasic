@@ -7,38 +7,43 @@ public class Y0527Test {
 
 //   1.
 //     Rectangle rectangle = new Rectangle();
-//     int result = rectangle.perimeter(5,8);
-//     System.out.println("周长是"+result);
-//     int result1 = rectangle.area(5,8);
-//     System.out.println("面积是"+result1);
+//     rectangle.height=55;
+//     rectangle.weight=50;
+//     rectangle.perimeter();
+//     System.out.println("周长是"+rectangle.perimeter());
+//     rectangle.area();
+//     System.out.println("面积是"+rectangle.area());
 
 //   2.
 //        Circle circle = new Circle();
-//        double radius = circle.area(4);
-//        System.out.println("面积是"+radius);
-//        double radius1 = circle.perimeter(4);
-//        System.out.println("周长是" +radius1);
+//        circle.i=4;
+//        circle.area();
+//        System.out.println("面积是"+circle.area());
+//        circle.perimeter();
+//        System.out.println("周长是" +circle.perimeter());
 
 //   3.
 //        Calculator calculator = new Calculator();
-//        calculator.Calculator(54,55);
+//        calculator.a=55;
+//        calculator.b=44;
+//        calculator.Calculator();
 
 //  4.
-    Car aodi = new Car();
-    aodi.mark = "奥迪";
-    aodi.price = 564654;
-    aodi.speed = 55;
-    aodi.test();
-    aodi.drive();
-    aodi.speedChange(80);
-
-    Car benchi = new Car();
-    benchi.mark = "奔驰";
-    benchi.price = 654654;
-    benchi.speed = 66;
-    benchi.test();
-    benchi.drive();
-    benchi.speedChange(85);
+//    Car aodi = new Car();
+//    aodi.mark = "奥迪";
+//    aodi.price = 564654;
+//    aodi.speed = 55;
+//    aodi.test();
+//    aodi.drive();
+//    aodi.speedChange(80);
+//
+//    Car benchi = new Car();
+//    benchi.mark = "奔驰";
+//    benchi.price = 654654;
+//    benchi.speed = 66;
+//    benchi.test();
+//    benchi.drive();
+//    benchi.speedChange(85);
 //  5.
 //        Student stuedent1 = new Student();
 //        stuedent1.name = "初一";

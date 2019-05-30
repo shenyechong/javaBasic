@@ -1,7 +1,10 @@
 package com.neuedu.test;
 
 public class Circle {
-    public double area(int i){
+
+    int i;
+
+    public double area(){
         double a = 0;
         if (i>0){
             a = i*i*3.14;
@@ -10,7 +13,7 @@ public class Circle {
         }
         return a;
     }
-    public double perimeter(int i){
+    public double perimeter(){
         double b = 0;
         if (i>0){
             b = i*2*3.14;

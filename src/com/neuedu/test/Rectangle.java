@@ -1,11 +1,14 @@
 package com.neuedu.test;
 
 public class Rectangle {
-    public int perimeter(int weight,int height){
+    int weight;
+    int height;
+
+    public int perimeter(){
         int P = (weight+height)*2;
         return P;
     }
-    public  int area(int weight,int height){
+    public  int area(){
         int A = weight*height;
         return A;
     }

@@ -1,5 +1,7 @@
 package com.neuedu.tests;
 
+import com.neuedu.test.PersonCreate1;
+
 public class TestPersonzlcreate {
     public static void main(String[] args) {
 
